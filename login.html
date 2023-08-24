@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Volkswagen</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/login.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="css/menu.css">
+        <script src="js/password.js"></script>
+        <link rel="shortcut icon" href="img/logo_svg.png" type="image/x-icon">
+
+                <!-- Link ícones google -->
+                <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+
+    </head>
+
+    <body>
+        <header>
+            <div id="header">
+                <div id="logo">
+                    <span>Volkswagen</span>
+                    <img src="img/logo_svg.png">
+                </div>
+                
+                <input type="checkbox" id="btt_menu">
+                <label for="btt_menu"> &#9776; </label>
+    
+                <div id="nav">
+                    <ul>
+
+                        <li> <a href="index.html">Home</a> 
+                            <span class="material-symbols-outlined">
+                                person
+                                </span>
+
+                        <li class="dropdown"> 
+                            <a href="veiculos.html" class="drop_btt"> Veículos &#9660;</a> 
+                            <span class="material-symbols-outlined">
+                                directions_car
+                                </span>
+
+                            <div class="dropdown_content">
+                                <a href="veiculos.html">Virtus</a>
+                            </div>
+                        </li>
+
+                        <li> <a href="login.html">Login</a> 
+                            <span class="material-symbols-outlined">
+                                person
+                                </span>
+                        </li>
+
+                        <li> <a href="">Procurar concessionário</a> 
+                            <span class="material-symbols-outlined">
+                                distance
+                                </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>  
+
+        <div id="box">
+            <h2>Login</h2>
+
+            <label>E-mail</label>
+            <input type="text" id="i_email">
+
+            <label>Senha</label>
+            <input type="password" id="i_senha">
+
+            <input type="checkbox" id="i_check" onclick="show_password()">
+            <label for="i_check">Ver senha</label>
+
+            <input type="submit" value="Entrar" id="btt">
+        </div>
+
+        <footer>
+            <div id="footer_content">
+                <div id="footer_contacts">
+                    <h1>Volksvagen</h1>
+                    <p></p>
+
+                    <div id="footer_social_media">
+                        <a href="https://www.instagram.com/volkswagen/" class="footer-link" id="instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a href="https://www.facebook.com/volkswagendobrasil" class="footer-link" id="facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+
+                        <a href="https://wa.me/qr/V73UWIJGCNQKB1" class="footer-link" id="whatsapp">
+                            <i class="fa-brands fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <ul class="footer-list">
+                    <li>
+                        <h3>Institucional</h3>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Quem Somos</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Missão, Visão e Valores</a>
+                    </li>
+                </ul>
+
+                <ul class="footer-list-2">
+                    <li>
+                        <h3>Onde Estamos</h3>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-link">Procurar Concessionário</a>
+                    </li>
+                    <div class="footer-endereço">
+                        <p>Rodovia Luis Augusto de Oliveira,Km 148.8 S/n - Zona Rural, São Carlos - SP</p>
+                        <p>CEP 13560-000</p>
+                    </div>
+                </ul>
+
+                <div id="footer-subscribe">
+                    <p>Atendimento ao cliente</p>
+                    <p>Seg - Sex 09:00 - 18:00</p>
+                    <p>(11) 3164-0686</p>
+
+                    <p>Escreva-nos um e-mail</p>
+
+                    <div id="input_group">
+                        <input type="email" id="email">
+                        <button>
+                            <i class="fa-regular fa-envelope"></i>
+                        </button>
+                    </div>
+                </div>
+
+                
+            </div>
+
+            <div id="footer_copyright">
+                &#169
+                2023 - Desenvolvido por Maria Luiza Camargo
+            </div>
+        </footer>
+
+    </body>
+</html>

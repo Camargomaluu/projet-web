@@ -1,0 +1,560 @@
+/* Links para fontes */
+/* Nivus */
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,200;8..144,300;8..144,400&display=swap');
+
+/* Quem Somos */
+@import url('https://fonts.googleapis.com/css2?family= Roboto +Mono:ital,wght@0,300;1,300;1,400 & display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family= Montserrat+Alternates:wght@200 & family= Poppins:wght@200 & family= Quicksand:wght@300 & display=swap' );
+
+/* Golf */
+@import url('https://fonts.googleapis.com/css2? family= Nanum+Gothic & family= Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300 & exibir=trocar');
+
+@import url('https://fonts.googleapis.com/css2? família= Roboto:ital,wght@0,500;1,500;1,700 & exibir=trocar');
+
+/* Logo */
+@import url('https://fonts.googleapis.com/css2?family= Inter:wght@600;700;900 & display =swap');
+
+/* Cocessionário */
+@import url('https://fonts.googleapis.com/css2? family= Nanum+Gothic & family= Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300 & exibir=trocar');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+header{
+    padding: 0 !important;
+    margin: 0 !important;
+    margin-bottom: 50px !important;
+}
+
+.main{
+    margin-bottom: 100px;
+}
+
+/* CSS Carrossel */
+.container-fluid{
+    padding: 0;
+}
+
+#mainSlider .carousel-inner, #mainSlider .carousel-item {
+    height: 90vh;
+}
+
+#mainSlider .carousel-caption {
+    top: 30%;
+}
+
+#mainSlider .carousel-caption h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+#mainSlider .carousel-caption p{
+    font-size: 22px;
+    font-weight: 300;
+    margin-bottom: 100px;
+    color: #ffffff;
+}
+
+.carousel-indicators .active{
+    background-color: #65DAF9;
+}
+
+.carousel-item active{
+    text-align: left;
+}
+
+.main{
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+/* .box_1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+    min-height: 100vh; 
+}
+
+.box_1{
+    filter: drop-shadow(0px 0px 10px #000000);
+    overflow: hidden;
+    width: 1250px;
+    height: 570px;
+    margin-bottom: 50px;
+}
+
+.carrossel{
+    display: flex;
+    object-fit: cover;
+    transition: 0.7 ease-in-out;
+    transform: translateX(0);
+    position: relative;
+}
+
+.carrossel img{ 
+    width: 1500px;
+    height: 720px;
+    margin-top: -100px;
+} */
+
+/* CSS Nívus */
+.nivus{
+    margin-bottom: 150px;
+}
+
+#box_2 h2{
+    color: #182d57;
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+#box_2 h3{
+    color: black;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+
+#box_2 h2, h3{
+    line-height: 1.0;
+    text-align: center;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+#box_3{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+}
+
+.nivus img{
+    width: 3000px; 
+    overflow: hidden;   
+}
+
+#text{
+    float: left; 
+    text-align: center;
+    padding-right: 50px;
+    padding-left: 30px;
+    margin: 10px;
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+.historia{
+    font-size: large;
+    font-size: 20px;
+}
+
+.bold{
+    font-weight: bold;
+    font-size: large;
+    font-size: 20px;
+    align-items: baseline;
+    text-shadow: 1px 1px 2px black;
+    text-align: left;
+}
+
+/* CSS Img interior */
+#interior{
+    margin-bottom: 150px;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+}
+
+/* #interior img{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+} */
+
+section.module.parallax{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh !important;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}
+
+section.module.parallax:after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 8;
+    background: -mox-linear-gradient(to bottom, rgb(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000000 100%);
+    background: -webkit-linear-gradient(to bottom, rgb(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000000 100%);
+    background: linear-gradient(to bottom, rgb(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000000 100%); 
+}
+
+section.module.parallax-1{
+    background-image: url("https://s2-autoesporte.glbimg.com/UN6nKFPAN1wZU1i3zX7SZRp8XnI=/0x0:1920x1080/1000x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_cf9d035bf26b4646b105bd958f32089d/internal_photos/bs/2022/G/T/eIYs20TxW1Cs05UcQYtw/vw-golf-r-20-years-edition-00008-1.jpg");
+    opacity: 0.7;
+}
+
+.area-1{
+    position: absolute;
+    top: 50%; /* Ajuste para posicionar verticalmente */
+    left: 50%; /* Ajuste para posicionar horizontalmente */
+    transform: translate(-50%, -50%); /* Centraliza o texto */
+    padding: 10px; /* Espaçamento interno do texto */
+    z-index: 1; 
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-weight: bold;
+    font-weight: 200;
+}
+
+.destaque-3{
+    font-size: 30px;
+}
+
+/* CSS Golf */
+
+@keyframes animacao{
+    from {.Golf;}
+    to {.Melhor;}
+}
+
+#carouselExample{
+    margin-bottom: 100px;
+    animation-name: animacao;
+    animation-duration: 2s;
+}
+
+
+
+/* .box_4{
+    width: 100%;
+    margin-bottom: 50px;
+    
+}
+
+.golf{
+    background-color: #292929;
+    color: #ffffff;
+    display: flex;
+    object-fit: cover;
+    text-align: center;
+    align-items: center;
+    transition: 1s;
+}
+
+.golf img{
+    width: 50%;
+    height: auto;
+    float: right; 
+}
+
+.golf h1{
+    line-height: 1.0;
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text_2{
+    padding: 30px;
+    overflow: hidden;
+}
+
+.i_text{
+    font-size: 25px; 
+    font-family: 'Nanum Gothic', sem serifa;
+    font-family: 'Roboto Flex', sem serifa;
+    font-weight: 90;
+}
+
+.box_4 input{
+    display: none;
+}
+
+.nav-manual{
+    position: absolute;
+    width: 100%;
+}
+
+.nav-manual .manual-btn{
+    border: 1px solid #292929;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.nav-manual .manual-btn:not(:last-child){
+    margin-right: 10px;
+}
+
+.nav-manual .manual-btn:hover{
+    background-color: #292929;
+}
+
+.prev, .next{
+    cursor: pointer;
+    color: #ffffff;
+    position: absolute;
+    top: 100%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    font-size: 20px;
+}
+
+.next{
+    right: 0;
+}
+
+.prev:hover, .next:hover{
+    transition: 0.3s;
+    background-color: #000000;
+    border-radius: 3px;
+}
+
+#radio1:checked ~ .primeiro{
+    margin-left: 0%;
+}
+
+#radio2:checked ~ .primeiro{
+    margin-left: -25%;
+} */
+
+/* CSS IMG Jetta */
+#jetta{
+    width: 1250px;
+    height: 720px;
+    margin-bottom: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+#jetta img{
+    width: 100%;
+}
+
+/* CSS Quem Somos */
+
+.box_5{
+    margin-bottom: 100px;
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    align-items: center;
+}
+
+.box_5 img{
+    width: 2500px;
+    overflow: hidden;
+    margin-right: 40px;
+}
+
+#box_somos{
+    float: left;
+    text-align: center;
+    font-size: large;
+    font-size: 25px;
+    margin-right: 40px;
+}
+
+.text_3{
+    font-family: 'Roboto Mono', monospace;
+}
+
+#text_4{
+    color: #182d57;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom: 50px;
+    font-size: 34px;
+    letter-spacing: 5px;
+}
+
+.box_6{
+    width: 100%;
+    padding: 40px;
+    margin-right: 50px;
+    text-align: center;
+}
+
+.box_6 p{
+    font-size: large;
+    font-size: 25px;
+    font-family: 'Roboto Mono', monospace;
+    margin-bottom: 30px;
+    margin-right: 50px;
+}
+
+/* CSS MSV */
+#box_msv{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    margin-right: 80px;
+    margin-left: 80px;
+    font-size: large;
+    font-size: 20px; 
+    margin-bottom: 100px;
+}
+
+#box_msv h2{
+    color: #182d57;
+}
+
+.valores{
+    text-align: center;
+    display: block;
+    font-weight: bold;
+    align-items: baseline;
+    list-style-type: none;
+}
+
+.valores  li::before {
+    content: "•"; /* Caractere de marcador (bullet) */
+    margin-right: 10px; /* Espaço entre o marcador e o texto */
+    font-size: 20px; /* Ajuste o tamanho do marcador conforme necessário */
+}
+
+/* Concessionário */
+
+#box-conjunto{
+    display: flex;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+#box-conjunto img{
+    width: 100%;
+    overflow: hidden;
+}
+
+#text-5{
+    float: left; 
+    text-align: center;
+    padding-right: 50px;
+    margin: 20px;
+    margin-bottom: 100px;
+    width: 70%;
+    align-items: center;
+
+}
+
+#text-5 h2{
+    color: #182d57;
+    font-family: 'Roboto Mono', monospace;
+    margin-bottom: 35px;
+}
+
+.list-3{
+    text-align: center;
+    font-weight: bold;
+    align-items: baseline;
+    list-style-type: none;
+    margin-bottom: 0.5rem;
+    font-family: 'Roboto Mono', monospace;
+    
+}
+
+.destaque-2{
+    font-size: 20px; 
+    font-family: 'Nanum Gothic', sem serifa;
+    font-family: 'Roboto Flex', sem serifa;
+    font-weight: 100;
+    color: #182d57;
+}
+
+.concessionario {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 45px;
+}
+
+#box-7{
+    align-items: center;
+    justify-content: center;
+    background-color: #ff9807;
+    margin-bottom: 100px;
+    width: 50%;
+    display: grid;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    overflow: hidden;
+}
+
+.maps{
+    padding: 20px;
+    margin: 20px;
+    background-color: #ff9807;
+}
+
+
+/* .box_7{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    margin-right: 50px;
+    font-size: large;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.banner{
+    width: 100%;
+    margin-bottom: 70px;
+    padding: 0;
+    margin: 0;
+}
+
+.box_7 h2{
+    color: #182d57;
+}
+
+.box_7 li{
+    text-align: center;
+    display: block;
+    font-weight: bold;
+    align-items: baseline;
+    list-style-type: none;
+    margin-bottom: 0.5rem;
+}
+
+#box-conjunto{
+    display: flex;
+}
+
+.destaque-2{
+    font-size: 20px; 
+    font-family: 'Nanum Gothic', sem serifa;
+    font-family: 'Roboto Flex', sem serifa;
+    font-weight: 100;
+}
+
+.concessionario {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    font-size: 20px;
+} */
+
+
+
+

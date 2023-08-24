@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family= Inter:wght@600;700;900 & display =swap');
+
+ #header{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff; 
+    padding: 0 !important;
+    margin: 0 !important;
+ }
+
+ header{
+    top: 0;
+    left: 0;
+ }
+
+#logo{
+    background-color: #026688;
+}
+
+#logo span{
+    color: #ffffff;
+    font-size: 40px;
+    padding: 25px;
+    font-family: 'Inter', sans-serif;
+    font-weight: bold;
+    font-weight: 16px;
+    position: relative;
+    overflow: hidden;
+}
+#logo img{
+    width: 3rem;
+    float: left;
+    padding: 5px;
+}
+
+#btt_menu{
+    display: none;
+}
+
+label[for="btt_menu"]{
+    display: none;
+    position: absolute;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+#nav ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #026688;
+    font-size: 20px;
+    font-weight: 150;
+}
+
+#nav li{
+    float: left;
+}
+
+#nav li a, .drop_btt{
+    display: inline-block;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+
+}
+
+li a:hover, .dropdown:hover, .drop_btt:hover{
+    background-color: #1080A5;
+}
+
+li span{
+    font-size: 32px;
+    color: #ffffff;
+}
+
+
+.dropdown_content{
+    display: none;
+    position: absolute;
+    background-color: #1080A5;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown_content a{
+    color: #000000;
+    padding: 14px 16px;
+    display: block;
+    text-align: left;
+}
+
+.dropdown_content a:hover{
+    background-color: #cacaca;
+}
+
+.dropdown:hover .dropdown_content{
+    display: block;
+}
+
+@media(max-width: 800px;){
+    #header{
+        text-align: center;
+    }
+
+    label[for="btt_menu1"]{
+        display: block;
+    }
+
+    #nav li{
+        float: none;
+        text-align: center;
+    }
+
+    #nav .dropdown_content{
+        position: relative;
+    }
+
+    #nav .dropdown_content a{
+        text-align: center;
+    }
+
+    #btt_menu:checked ~ #nav{
+        display: block;
+    }
+}
+
+@media(max-width: 425px){
+
+    #logo{
+        font-size: 25px;
+    }
+
+    label[for="btt_menu"]{
+        font-size: 40px;
+    }
+}
